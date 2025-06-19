@@ -1,0 +1,181 @@
+body{
+    background-color: gray;
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at center, rgba(0,0,0,0) 40%, rgba(0,0,0,0.5) 100%);
+}
+
+
+.Circle{ 
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 1298px;
+    filter: drop-shadow(15px 10px 4px black);
+    border-color: black;
+}   
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* .l1{
+    height: 600px;
+    width: 3px;
+    position: absolute;
+    background-color: black;
+}
+
+.l2{
+    height: 3px;
+    width: 600px;
+    position: absolute;
+    background-color: black;
+}
+
+.l3{
+    height: 3px;
+    width: 600px;
+    position: absolute;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.l4{
+    height: 3px;
+    width: 600px;
+    position: absolute;
+    background-color: black;
+    transform: rotate(-45deg);
+} */
+
+.n1{
+    font-size: 40px;
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+   
+    margin-bottom: 370px;
+}
+
+.n2{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 380px;
+}
+
+.n3{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 380px;
+}
+
+.n4{
+    font-size: 40px;
+    position: absolute;
+    margin-right: 380px;
+}
+
+.n5{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: 300px;
+    margin-left: 170px;
+}
+
+.n6{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: 160px;
+    margin-left: 320px;
+}
+
+.n7{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: -160px;
+    margin-left: 320px;
+}
+
+.n8{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: -300px;
+    margin-left: 170px;
+}
+
+.n9{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: -300px;
+    margin-right: 170px;
+}
+
+.n10{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: -160px;
+    margin-left: -320px;
+}
+
+.n11{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: 160px;
+    margin-left: -320px;
+}
+
+.n12{
+    font-size: 25px;
+    position: absolute;
+    margin-bottom: 300px;
+    margin-left: -170px;
+}
+
+.hourHand{
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 60px;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%)
+}
+
+.minuteHand{
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 90px;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+}
+   
+
+.secondHand{
+    position: absolute;
+    background-color: #A51C30;
+    width: 3px;
+    height: 140px;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    opacity: 0.2;
+}
